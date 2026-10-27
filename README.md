@@ -2,9 +2,9 @@
 
 ## 🚀 Overview
 
-This project showcases the Python and Pandas skills developed during my **Data Technician Bootcamp** through a combination of programming exercises, data analysis tasks, and practical notebook projects. Working with real-world datasets, I used Python to build logical programs, automate calculations, manipulate data, and generate insights through analysis and visualisation. 【1-19f0d5】
+This project showcases the Python and Pandas skills developed during my **Data Technician Bootcamp** through a combination of programming exercises, data analysis tasks, and practical notebook projects. Working with real-world datasets, I used Python to build logical programs, automate calculations, manipulate data, and generate insights through analysis and visualisation. 
 
-The project focused on developing core programming skills alongside data analysis techniques using **Pandas** and **Matplotlib**, enabling me to clean, transform, explore, and visualise data effectively. 【1-19f0d5】
+The project focused on developing core programming skills alongside data analysis techniques using **Pandas** and **Matplotlib**, enabling me to clean, transform, explore, and visualise data effectively.
 
 ---
 
