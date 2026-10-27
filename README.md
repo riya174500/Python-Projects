@@ -184,7 +184,7 @@ A key focus of this project was transforming raw data into meaningful insights t
 ## Python Programming
 -  You're developing a simple calculator tool for a local community learning website. Users should be able to choose what operation they want to perform and continue using the calculator until they decide to exit.
 🧪 Task: Write a Python program that: Displays a menu with the following options: 1- Addition 2- Subtraction 3- Multiplication 4-Division 5- Exit. Asks the user to choose an operation. Asks for two numbers, then performs the chosen operation. Repeats the menu until the user selects Exit
-'''
+```
 option = 0
 
 while option != 5:
@@ -214,14 +214,14 @@ while option != 5:
     print("Exit")
   else:
     print("Invalid option")
-'''
+```
 
 - You’re building a tool for a puzzle game where certain levels require calculating the factorial of a number to unlock a clue. A factorial of a number is the product of all positive integers from 1 up to that number. For example: 5! = 5 × 4 × 3 × 2 × 1 = 120
 🧪 Task: Write a Python program that: Asks the user to enter a non-negative integer. Calculates the factorial of that number. Displays the result
-'''
+```
 number = int(input("Please enter a number:"))
 total = 1
 for i in range(1, number+1):
   total = total *i
 print(f"Total of all numbers from 1 to {number} is {total}.")
-'''
+```
