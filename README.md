@@ -170,14 +170,58 @@ A key focus of this project was transforming raw data into meaningful insights t
 
 ⭐ This project demonstrates my ability to use Python and Pandas to build logical solutions, clean and analyse data, create visualisations, and transform raw datasets into actionable insights.
 
-## Correlation Map  
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/35a54368-a269-4672-8092-f41c37bfe9fa" />
 
-## Bar Chart
+## Data Visualisation 
 
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/35a54368-a269-4672-8092-f41c37bfe9fa" />  
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/021cd587-e8b5-4fa5-9e57-983f76328684" />
 
-## Data Analysis in Pandas
+## Data Analysis
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/8d4bbd64-b9cc-4d5d-a8f5-f1de0eaa9587" />
+
+## Python Programming
+-  You're developing a simple calculator tool for a local community learning website. Users should be able to choose what operation they want to perform and continue using the calculator until they decide to exit.
+🧪 Task: Write a Python program that: Displays a menu with the following options: 1- Addition 2- Subtraction 3- Multiplication 4-Division 5- Exit. Asks the user to choose an operation. Asks for two numbers, then performs the chosen operation. Repeats the menu until the user selects Exit
+'''
+option = 0
+
+while option != 5:
+  print("1- Addition")
+  print("2- Subtraction")
+  print("3- Multiplication")
+  print("4- Division")
+  print("5- Exit")
+
+  option = int(input("Enter option:"))
+
+  if option < 5:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+  if option == 1:
+    print(f"{num1} + {num2} =",num1 + num2)
+  elif option == 2:
+    print(f"{num1} - {num2} =",num1 - num2)
+  elif option == 3:
+    print(f"{num1} * {num2} =",num1 * num2)
+  elif option == 4:
+    if num2 == 0:
+      print("Cannot divide by zero")
+    else:
+      print(f"{num1} / {num2} =",num1 / num2)
+  elif option == 5:
+    print("Exit")
+  else:
+    print("Invalid option")
+'''
+
+- You’re building a tool for a puzzle game where certain levels require calculating the factorial of a number to unlock a clue. A factorial of a number is the product of all positive integers from 1 up to that number. For example: 5! = 5 × 4 × 3 × 2 × 1 = 120
+🧪 Task: Write a Python program that: Asks the user to enter a non-negative integer. Calculates the factorial of that number. Displays the result
+'''
+number = int(input("Please enter a number:"))
+total = 1
+for i in range(1, number+1):
+  total = total *i
+print(f"Total of all numbers from 1 to {number} is {total}.")
+'''
