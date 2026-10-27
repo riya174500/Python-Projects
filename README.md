@@ -4,7 +4,7 @@
 
 This project showcases the Python and Pandas skills developed during my **Data Technician Bootcamp** through a combination of programming exercises, data analysis tasks, and practical notebook projects. Working with real-world datasets, I used Python to build logical programs, automate calculations, manipulate data, and generate insights through analysis and visualisation. 
 
-The project focused on developing core programming skills alongside data analysis techniques using **Pandas**, **NumPy**, **Seaborn**, and **Matplotlib**, enabling me to clean, transform, explore, and visualise data effectively.
+The project focused on developing core programming skills alongside data analysis techniques using **Pandas**, **NumPy**, **Seaborn**, and **Matplotlib**, enabling me to clean, transform, explore, analyse, and visualise data effectively.
 
 ---
 
@@ -35,33 +35,53 @@ The project focused on developing core programming skills alongside data analysi
 ### 🐼 Pandas Data Analysis
 
 ✅ DataFrames & Series  
+✅ Data Import & Export  
 ✅ Data Filtering  
 ✅ Data Selection with `.loc[]`  
 ✅ Data Selection with `.iloc[]`  
+✅ Column Selection & Creation  
+✅ Data Inspection & Exploration  
 ✅ Data Cleaning  
 ✅ Data Transformation  
-✅ Data Aggregation
+✅ Data Aggregation  
+✅ Data Merging & Joining
 
-### ⚙️ Pandas Methods
+### ⚙️ Pandas Methods & Functions
 
-✅ `groupby()`  
-✅ `sort_values()`  
+✅ `head()`  
+✅ `tail()`  
+✅ `info()`  
+✅ `describe()`  
+✅ `dtypes`  
+✅ `columns`  
+✅ `shape`  
+✅ `value_counts()`  
+✅ `unique()`   
+✅ `isnull()`  
 ✅ `dropna()`  
 ✅ `fillna()`  
-✅ `head()`  
-✅ `describe()`  
-✅ `value_counts()`  
+✅ `groupby()`  
+✅ `sort_values()`  
 ✅ `merge()`  
-✅ `reset_index()`
+✅ `concat()`  
+✅ `reset_index()`  
+✅ `rename()`  
+✅ `drop()`  
+✅ `loc[]`  
+✅ `iloc[]`
 
 ### 📊 Data Visualisation
 
+✅ Matplotlib  
+✅ Seaborn  
 ✅ Line Charts  
 ✅ Bar Charts  
 ✅ Histograms  
 ✅ Scatter Plots  
-✅ Data Exploration Visualisations  
-✅ Matplotlib Integration
+✅ Box Plots  
+✅ Count Plots  
+✅ Distribution Analysis  
+✅ Exploratory Data Visualisation
 
 ---
 
@@ -73,36 +93,41 @@ The project focused on developing core programming skills alongside data analysi
 - Applied loops to automate repetitive tasks and calculations
 - Created solutions for real-world programming challenges
 - Developed interactive programs that respond dynamically to user input
-- Strengthened problem-solving and logical thinking skills through practical exercises including FizzBuzz and other coding challenges 【1-19f0d5】
+- Strengthened problem-solving and logical thinking skills through practical exercises including FizzBuzz and other coding challenges
 
 ### 🧮 Calculations & User Interaction
 
 - Performed mathematical and business-related calculations
 - Created programs that validate and process user input
 - Used decision-making structures to control program flow
-- Developed applications that generate outputs based on user choices and conditions 【1-19f0d5】
+- Developed applications that generate outputs based on user choices and conditions
 
 ### 🐼 Data Analysis with Pandas
 
 - Loaded and explored structured datasets using DataFrames
+- Examined dataset structure using `info()`, `dtypes`, `columns`, and `shape`
+- Investigated data using `head()`, `tail()`, and `describe()`
 - Filtered and sliced data using `.loc[]` and `.iloc[]`
-- Grouped, sorted, and aggregated data to identify patterns and trends
-- Manipulated datasets to support reporting and analysis tasks
-- Explored retail, sales, and business datasets to uncover insights 【1-19f0d5】
+- Applied sorting, grouping, and aggregation techniques using `sort_values()` and `groupby()`
+- Analysed categorical information using `value_counts()` and `unique()`
+- Combined datasets using `merge()` and `concat()`
+- Explored retail, sales, and business datasets to uncover trends and patterns
 
 ### 🧹 Data Cleaning & Preparation
 
-- Identified and handled missing values using `dropna()` and `fillna()`
-- Prepared datasets for analysis through cleaning and transformation
-- Improved data quality and consistency prior to reporting
-- Applied best practices for data preparation and exploration
+- Identified missing values using `isnull()`
+- Handled incomplete data using `dropna()` and `fillna()`
+- Renamed, removed, and transformed columns where required
+- Improved dataset quality and consistency for analysis
+- Prepared datasets for reporting, visualisation, and business insights
 
 ### 📈 Data Visualisation
 
-- Created charts and graphs to communicate findings effectively
-- Used visualisations to identify trends, outliers, and patterns
-- Presented analytical results using Python visualisation libraries
-- Supported data storytelling through impactful visual representations
+- Created visualisations using Matplotlib and Seaborn
+- Produced bar charts, line charts, scatter plots, histograms, and box plots
+- Explored distributions, trends, and relationships within datasets
+- Identified patterns, outliers, and key business insights through visual analysis
+- Supported data storytelling through clear and effective visualisations
 
 ---
 
