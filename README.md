@@ -169,3 +169,15 @@ A key focus of this project was transforming raw data into meaningful insights t
 ---
 
 ⭐ This project demonstrates my ability to use Python and Pandas to build logical solutions, clean and analyse data, create visualisations, and transform raw datasets into actionable insights.
+
+## Correlation Map  
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/35a54368-a269-4672-8092-f41c37bfe9fa" />
+
+## Bar Chart
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/021cd587-e8b5-4fa5-9e57-983f76328684" />
+
+## Data Analysis in Pandas
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/8d4bbd64-b9cc-4d5d-a8f5-f1de0eaa9587" />
